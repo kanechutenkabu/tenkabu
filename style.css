@@ -1,13 +1,9 @@
 body{
   font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
-  background-image: url("C:/Users/sigma/Desktop/atom-windows/otherimage/backgrownd.svg");
+  background-image: url("backgrownd.svg");
   background-size: 700px;
   background-repeat :repeat;
   background-attachment: fixed;
-}
-
-.headder{
-
 }
 
 .title{
@@ -35,10 +31,6 @@ body{
 .minititle{
   font-family: 'YuGothic','Yu Gothic', sans-serif;
   font-size: 20px;
-}
-
-.nomaltext{
-
 }
 
 .linkbutton{
