@@ -48,8 +48,12 @@ body{
 }
 
 .box_left{
-  padding-top: 1px;
+  display: inline-block;
   margin-top: 5px;
   background-color: #c1daeb;
   width: 49%;
+}
+
+.box_right{
+  display: inline-block;
 }
