@@ -57,5 +57,19 @@ body{
 }
 
 .microtitle{
-  
+  display: inline-block;
+  color: blue;
+  font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+  font-weight: bold;
+}
+
+.microword{
+  display: inline-block;
+  font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+.line_TB_first{
+  border-style: dotted none;
+  border-width: 2px;
+  border-color: brown;
 }
