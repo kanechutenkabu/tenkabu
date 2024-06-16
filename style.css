@@ -47,6 +47,11 @@ body{
   background-color: #62824f;
 }
 
+.box_div{
+  background-color: rgba(109,150,156,0.3);
+  border-radius: 5px;
+}
+
 .box{
-  background-color: rgba(151,182,77,0.5);
+  padding: 8px;
 }
