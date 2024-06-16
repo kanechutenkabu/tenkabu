@@ -47,16 +47,7 @@ body{
   background-color: #62824f;
 }
 
-.box_left{
-  display: inline-block;
-  margin-top: 5px;
-  background-color: #c1daeb;
-  width: 49%;
-}
-
-.box_right{
-  display: inline-block;
-  margin-top: 5px;
-  background-color:aquamarine;
-  width: 49%;
+.box{
+  background-color: (255,255,255,0.5);
+  
 }
