@@ -68,8 +68,14 @@ body{
   font-family: 'klee',sans-serif;
 }
 
-.line_TB_first{
-  border-style: dotted none;
-  border-width: 2px;
-  border-color: brown;
+.line_T{
+  border-style: dashed none none none;
+  border-width: 1px;
+  border-color: #B1632A;
+}
+
+.line_TB{
+  border-style: dashed none;
+  border-width: 1px;
+  border-color: #B1632A;
 }
