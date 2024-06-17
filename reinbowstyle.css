@@ -63,7 +63,7 @@ body{
 .linkbutton_nomal{
   display: inline-block;
   color: #FFFFFF;
-  background: #73a456;
+  background-color: #73a456;
   border-radius: 15px;
   margin-right: 20px;
   padding: 7px;
@@ -72,7 +72,7 @@ body{
 }
 
 .linkbutton_nomal:hover{
-  background: #62824f;
+  background-color: #62824f;
 }
 
 .box_div{
