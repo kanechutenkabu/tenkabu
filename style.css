@@ -47,6 +47,21 @@ body{
   background-color: #62824f;
 }
 
+.reinbow_linkbutton{
+  display: inline-block;
+  color: #FFFFFF;
+  background: linear-gradient(to right,#de4141,#e8ac51,#f2e55c,#39a869,#4784bf,#5d5099,#a55b9a);
+  border-radius: 15px;
+  margin-right: 20px;
+  padding: 7px;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+.reinbow_linkbutton:hover{
+  background:linear-gradient(to right,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073);
+}
+
 .box_div{
   background-color: rgba(109,150,156,0.3);
   border-radius: 5px;
