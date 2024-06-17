@@ -11,9 +11,21 @@ body{
   padding: 0pt;
   padding-bottom: 40pt;
   margin: 0pt;
-  font-size: 50pt;
+  font-size: 60px;
   font-weight: bold;
   margin-left: 10px;
+}
+
+@media (max-width: 390px){
+  .title{
+    font-size:50px;
+  }
+}
+
+@media (max-width: 345px){
+  .title{
+    font-size:40px;
+  }
 }
 
 .subtitle_right{
@@ -25,7 +37,13 @@ body{
   padding: 0pt;
   margin: 0pt;
   font-family: 'Kokoro','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
-  font-size: 40pt;
+  font-size: 30pt;
+}
+
+@media (max-width: 380px){
+  .subtitle{
+    font-size: 25px;
+  }
 }
 
 .minititle{

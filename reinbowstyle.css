@@ -19,6 +19,18 @@ body{
   -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 320px){
+  .title{
+    font-size:30pt;
+  }
+}
+
+@media (max-width: 345px){
+  .title{
+    font-size:40px;
+  }
+}
+
 .subtitle_right{
   text-align: right;
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
@@ -31,10 +43,16 @@ body{
   padding: 0pt;
   margin: 0pt;
   font-family: 'Kokoro','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
-  font-size: 40pt;
+  font-size: 30pt;
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 380px){
+  .subtitle{
+    font-size: 25px;
+  }
 }
 
 .minititle{
