@@ -1,86 +1,86 @@
 body{
-    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
-    background-image: url("backgrownd.svg");
-    background-size: 700px;
-    background-repeat :repeat;
-    background-attachment: fixed;
-  }
-  
-  .title{
-    display: inline-block;
-    padding: 0pt;
-    padding-bottom: 40pt;
-    margin: 0pt;
-    font-size: 50pt;
-    font-weight: bold;
-    margin-left: 10px;
-    color: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
-  }
-  
-  .subtitle_right{
-    text-align: right;
-    color: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
-  }
-  
-  .subtitle{
-    display: inline-block;
-    padding: 0pt;
-    margin: 0pt;
-    font-family: 'Kokoro','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
-    font-size: 40pt;
-    color: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
-  }
-  
-  .minititle{
-    font-family: 'YuGothic','Yu Gothic', sans-serif;
-    font-size: 20px;
-    color: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
-  }
-  
-  .linkbutton{
-    display: inline-block;
-    color: #FFFFFF;
-    background-color: linear-gradient(to right,#de4141,#e8ac51,#f2e55c,#39a869,#4784bf,#5d5099,#a55b9a);
-    border-radius: 15px;
-    margin-right: 20px;
-    padding: 7px;
-    text-decoration: none;
-    font-family: "M PLUS Rounded 1c",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
-    color: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
-  }
-  .linkbutton:hover{
-    background-color:linear-gradient(to right,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073);
-  }
-  
-  .box_div{
-    background-color: rgba(109,150,156,0.3);
-    border-radius: 5px;
-  }
-  
-  .box{
-    padding: 8px;
-  }
-  
-  .microtitle{
-    display: inline-block;
-    color: #503DBC;
-    font-family: 'klee',sans-serif;
-    font-weight: bold;
-  }
-  
-  .microword{
-    display: inline-block;
-    font-family: 'klee',sans-serif;
-  }
-  
-  .line_T{
-    border-style: dashed none none none;
-    border-width: 1px;
-    border-color: #B1632A;
-  }
-  
-  .line_TB{
-    border-style: dashed none;
-    border-width: 1px;
-    border-color: #B1632A;
-  }
+  font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  background-image: url("backgrownd.svg");
+  background-size: 700px;
+  background-repeat :repeat;
+  background-attachment: fixed;
+}
+
+.title{
+  display: inline-block;
+  padding: 0pt;
+  padding-bottom: 40pt;
+  margin: 0pt;
+  font-size: 50pt;
+  font-weight: bold;
+  margin-left: 10px;
+  color: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+}
+
+.subtitle_right{
+  text-align: right;
+  color: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+}
+
+.subtitle{
+  display: inline-block;
+  padding: 0pt;
+  margin: 0pt;
+  font-family: 'Kokoro','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  font-size: 40pt;
+  color: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+}
+
+.minititle{
+  font-family: 'YuGothic','Yu Gothic', sans-serif;
+  font-size: 20px;
+  color: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+}
+
+.linkbutton{
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: linear-gradient(to right,#de4141,#e8ac51,#f2e55c,#39a869,#4784bf,#5d5099,#a55b9a);
+  border-radius: 15px;
+  margin-right: 20px;
+  padding: 7px;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+  color: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+}
+.linkbutton:hover{
+  background-color:linear-gradient(to right,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073);
+}
+
+.box_div{
+  background-color: rgba(109,150,156,0.3);
+  border-radius: 5px;
+}
+
+.box{
+  padding: 8px;
+}
+
+.microtitle{
+  display: inline-block;
+  color: #503DBC;
+  font-family: 'klee',sans-serif;
+  font-weight: bold;
+}
+
+.microword{
+  display: inline-block;
+  font-family: 'klee',sans-serif;
+}
+
+.line_T{
+  border-style: dashed none none none;
+  border-width: 1px;
+  border-color: #B1632A;
+}
+
+.line_TB{
+  border-style: dashed none;
+  border-width: 1px;
+  border-color: #B1632A;
+}
