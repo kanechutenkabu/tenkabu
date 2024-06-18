@@ -11,7 +11,7 @@ body{
   padding: 0pt;
   padding-bottom: 40pt;
   margin: 0pt;
-  font-size: 50pt;
+  font-size: 60pt;
   font-weight: bold;
   margin-left: 10px;
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
@@ -19,9 +19,9 @@ body{
   -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 320px){
+@media (max-width: 390px){
   .title{
-    font-size:30pt;
+    font-size:50pt;
   }
 }
 
