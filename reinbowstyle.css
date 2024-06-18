@@ -11,7 +11,7 @@ body{
   padding: 0pt;
   padding-bottom: 40pt;
   margin: 0pt;
-  font-size: 60pt;
+  font-size: 60px;
   font-weight: bold;
   margin-left: 10px;
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
@@ -21,7 +21,7 @@ body{
 
 @media (max-width: 390px){
   .title{
-    font-size:50pt;
+    font-size:50px;
   }
 }
 
