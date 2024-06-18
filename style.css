@@ -94,11 +94,13 @@ body{
   color: #503DBC;
   font-family: 'klee',sans-serif;
   font-weight: bold;
+  padding-left: 10px;
 }
 
 .microword{
   display: inline-block;
   font-family: 'klee',sans-serif;
+  padding-left: 20px;
 }
 
 .line_T{

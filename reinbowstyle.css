@@ -121,6 +121,7 @@ body{
   -webkit-text-fill-color: transparent;
   font-family: 'klee',sans-serif;
   font-weight: bold;
+  padding-left: 10px;
 }
 
 .microword{
@@ -129,6 +130,7 @@ body{
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-left: 20px;
 }
 
 .line_T{
