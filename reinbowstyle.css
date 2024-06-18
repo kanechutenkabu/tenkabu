@@ -100,9 +100,7 @@ body{
 
 .box{
   padding: 8px;
-  background: linear-gradient(to right,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: black;
 }
 
 .microtitle{
