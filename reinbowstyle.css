@@ -105,6 +105,11 @@ body{
   -webkit-text-fill-color: transparent;
 }
 
+.nomalbox_div{
+  background-color: rgba(255,100,100,0.3);
+  border-radius: 5px;
+}
+
 .nomalbox{
   color: black;
 }
