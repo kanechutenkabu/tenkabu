@@ -114,6 +114,10 @@ body{
   color: black;
 }
 
+.bold{
+  font-weight: bold;
+}
+
 .microtitle{
   font-size: 20px;
   display: inline-block;
