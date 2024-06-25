@@ -16,7 +16,7 @@ body{
   margin-left: 10px;
 }
 
-@media (max-width: 390px){
+@media (max-width: 410px){
   .title{
     font-size:50px;
   }
@@ -40,7 +40,7 @@ body{
   font-size: 30pt;
 }
 
-@media (max-width: 380px){
+@media (max-width: 400px){
   .subtitle{
     font-size: 25px;
   }
