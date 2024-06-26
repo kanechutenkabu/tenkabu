@@ -15,8 +15,11 @@ body{
   font-weight: bold;
   margin-left: 10px;
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 @media (max-width: 410px){
@@ -34,8 +37,11 @@ body{
 .subtitle_right{
   text-align: right;
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 .subtitle{
@@ -45,8 +51,11 @@ body{
   font-family: 'Kokoro','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
   font-size: 30pt;
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 @media (max-width: 400px){
@@ -59,8 +68,11 @@ body{
   font-family: 'YuGothic','Yu Gothic', sans-serif;
   font-size: 20px;
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 .linkbutton{
@@ -101,8 +113,11 @@ body{
 .box{
   padding: 8px;
   background: linear-gradient(to right,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 .nomalbox_div{
@@ -122,8 +137,11 @@ body{
   font-size: 20px;
   display: inline-block;
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
   font-family: 'klee',sans-serif;
   font-weight: bold;
   padding-left: 10px;
@@ -133,8 +151,11 @@ body{
   font-size: 20px;
   display: inline-block;
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
   font-family: 'klee',sans-serif;
   font-weight: bold;
   padding-left: 10px;
@@ -145,8 +166,11 @@ body{
   font-size: 20px;
   display: inline-block;
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
   font-family: 'klee',sans-serif;
   font-weight: bold;
   padding-left: 10px;
@@ -158,8 +182,11 @@ body{
   display: inline-block;
   font-family: 'klee',sans-serif;  
   background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
   padding-left: 20px;
 }
 
