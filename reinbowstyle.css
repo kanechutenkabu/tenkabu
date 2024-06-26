@@ -163,6 +163,15 @@ body{
   padding-left: 20px;
 }
 
+.table{
+  width: 50%;
+}
+@media (max-width: 930px){
+  .table{
+    width: 100%;
+  }
+}
+
 .line_T{
   border-style: solid none none none;
   border-width: 1px;
