@@ -126,7 +126,8 @@ body{
 }
 
 .table{
-  width: 50%;
+  display: inline-block;
+  width: 49%;
 }
 @media (max-width: 930px){
   .table{
@@ -144,4 +145,12 @@ body{
   border-style: dashed none;
   border-width: 1px;
   border-color: #1a63aa;
+}
+
+.image{
+  display: inline-block;
+  top: 0%;
+  left: 75%;
+  height: 356px;
+  align-items: center;
 }
