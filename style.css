@@ -146,11 +146,3 @@ body{
   border-width: 1px;
   border-color: #1a63aa;
 }
-
-.image{
-  display: inline-block;
-  top: 0%;
-  left: 75%;
-  height: 356px;
-  align-items: center;
-}
