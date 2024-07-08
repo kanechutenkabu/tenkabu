@@ -135,6 +135,15 @@ body{
   }
 }
 
+.tablediv{
+  padding: 10px 0px;
+}
+
+.imgtypeA{
+  width: 100%;
+  padding: 20px 0px;
+}
+
 .line_T{
   border-style: dashed none none none;
   border-width: 1px;
