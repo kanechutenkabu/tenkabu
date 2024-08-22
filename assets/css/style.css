@@ -1,0 +1,311 @@
+body{
+  font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  background-image: url("background.svg");
+  background-size: 700px;
+  background-repeat :repeat;
+  background-attachment: fixed;
+  margin: 0%;
+}
+
+header{
+  display: flex;
+  background-color: #ccc;
+  width: 100vw;
+  position: fixed;
+  align-items: center;
+  height: 80px;
+}
+
+li>a{
+  text-decoration: none;
+  color: #d31;
+}
+
+nav{
+  margin-left: 10px;
+  height: 80px;
+}
+
+#infobutton{
+  display: none;
+  height: 40px;
+  margin: 20px 0px;
+  padding: 0px 20px;
+}
+
+#infobutton_out{
+  position: fixed;
+  width: 40px;
+  margin: 20px;
+}
+
+.hide{
+  display: inline-block;
+}
+
+@media (max-width: 792px){
+  #infobutton{
+    display: flex;
+  }
+  ul{
+    color: #000;
+  }
+  .hidden{
+    display: none;
+  }
+  .big{
+    height: 250px;
+  }
+}
+@media (max-width: 353px) {
+  .big{
+    height: 320px;
+  }
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.items{
+  display: inline-block;
+  height: 24px;
+  margin: 8px 0px;
+  padding: 20px 20px;
+  text-decoration: none;
+  border-left: #000 solid 1px;
+  border-right: #000 solid 1px;
+}
+
+header>nav>img{
+  display: inline-block;
+  height: 60px;
+  margin: 10px 20px;
+}
+
+.title{
+  display: inline-block;
+  padding: 0pt;
+  padding-bottom: 40pt;
+  margin: 0pt;
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: calc(1vw + 10px);
+  margin-top: 74px;
+}
+
+@media (max-width: 410px){
+  .title{
+    font-size:50px;
+  }
+}
+
+@media (max-width: 345px){
+  .title{
+    font-size:40px;
+  }
+}
+
+.subtitle_right{
+  text-align: right;
+  margin-left: 1vw;
+}
+
+.subtitle{
+  display: inline-block;
+  padding: 0pt;
+  margin: 0vw 1vw 0vw 0vw;
+  font-family: 'Kokoro','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  font-size: 30pt;
+}
+
+@media (max-width: 400px){
+  .subtitle{
+    font-size: 25px;
+  }
+}
+
+.minititle{
+  font-family: 'YuGothic','Yu Gothic', sans-serif;
+  font-size: 20px;
+  margin-left: 1vw;
+}
+
+.linkbutton{
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: #73a456;
+  border-radius: 15px;
+  margin-left: 1vw;
+  padding: 7px;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+.linkbutton:hover{
+  background-color: #62824f;
+}
+
+.rainbow_linkbutton{
+  display: inline-block;
+  color: #FFFFFF;
+  background: linear-gradient(to right,#de4141,#e8ac51,#f2e55c,#39a869,#4784bf,#5d5099,#a55b9a);
+  border-radius: 15px;
+  margin-left: 1vw;
+  padding: 7px;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+.rainbow_linkbutton:hover{
+  background:linear-gradient(to right,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073);
+}
+
+.box_div{
+  background-color: rgba(109,150,156,0.3);
+  border-radius: 5px;
+  margin: 0vw 1vw;
+}
+
+.box{
+  padding: 8px;
+}
+
+.microtitle{
+  font-size: 20px;
+  display: inline-block;
+  color: #197dc3;
+  font-family: 'klee',sans-serif;
+  font-weight: bold;
+  width: 80px;
+}
+
+.microword{
+  font-size: 20px;
+  display: inline-block;
+  font-family: 'klee',sans-serif;
+  padding-left: 20px;
+}
+
+.table{
+  width: calc(100% - 4vw);
+  height: 100%;
+  margin: 0vw 1vw;
+}
+
+.line_T{
+  display: flex;
+  border-style: dashed none none none;
+  border-width: 1px;
+  border-color: #1a63aa;
+}
+
+.line_TB{
+  display: flex;
+  border-style: dashed none;
+  border-width: 1px;
+  border-color: #1a63aa;
+}
+
+@media (max-width: 396px){
+  .table{
+    overflow-x: scroll;
+  }
+  .line_T{
+    width: 380px;
+  }
+  .line_TB{
+    width: 380px;
+  }
+}
+
+footer{
+  width: 100%;
+  height: 120px;
+  background-color: #ad9;
+}
+
+/* モバイル S/M/L ~425px  */
+@media (max-width: 425px){
+  body{
+    background-size: 400px;
+  }
+
+}
+
+
+/* ノートPC 1024px */
+
+@media (min-width: 1024px) and (max-width: 2559px){
+  .title{
+    font-size: 76px;
+  }
+
+  .subtitle{
+    font-size: 64px;
+  }
+
+  .box{
+    font-size: 20px;
+  }
+
+  .linkbutton{
+    font-size: 18px;
+  }
+
+  .rainbow_linkbutton{
+    font-size: 18px;
+  }
+
+  .microtitle{
+    font-size: 26px;
+    width: 108px;
+  }
+
+  .microword{
+    font-size: 26px;
+    padding-left: 26px;
+  }
+}
+
+/* 4K 2560px */
+
+@media (min-width: 2560px) {
+  body{
+    background-size: 1200px;
+  }
+
+  .title{
+    font-size: 135px;
+  }
+
+  .subtitle{
+    font-size: 108px;
+  }
+
+  .box{
+    font-size: 42px;
+  }
+
+  .linkbutton{
+    font-size: 36px;
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .rainbow_linkbutton{
+    font-size: 36px;
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .microtitle{
+    font-size: 45px;
+    width: 180px;
+  }
+
+  .microword{
+    font-size: 45px;
+    padding-left: 45px;
+  }
+}
