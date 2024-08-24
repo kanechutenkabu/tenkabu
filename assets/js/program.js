@@ -2,6 +2,7 @@ const btn = document.querySelector("input");
 btn.addEventListener("click",tgl_dsp);
 const ancher = document.querySelectorAll("a");
 ancher[0].addEventListener("click",tgl_dsp);
+ancher[1].addEventListener("click",tgl_dsp);
 ancher[2].addEventListener("click",tgl_dsp);
 ancher[3].addEventListener("click",tgl_dsp);
 ancher[4].addEventListener("click",tgl_dsp);

@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   background-image: url("background.svg");
@@ -43,7 +47,7 @@ nav{
   display: inline-block;
 }
 
-@media (max-width: 792px){
+@media (max-width: 792px) {
   #infobutton{
     display: flex;
   }
@@ -54,12 +58,22 @@ nav{
     display: none;
   }
   .big{
+    height: 170px;
+  }
+}
+@media (max-width: 555px) and (min-width: 311px) {
+  .big{
     height: 250px;
   }
 }
-@media (max-width: 353px) {
+@media (max-width: 310px) {
   .big{
     height: 320px;
+  }
+}
+@media (max-width: 249px) {
+  .big{
+    height: 400px;
   }
 }
 
@@ -221,8 +235,39 @@ header>nav>img{
 
 footer{
   width: 100%;
-  height: 120px;
+  height: 148px;
   background-color: #ad9;
+}
+
+.right{
+  text-align: right;
+}
+
+@media (max-width: 412px) {
+  footer{
+    height: 178px;
+  }
+  .rad{
+    display: none;
+  }
+}
+
+@media (max-width: 366px) {
+  footer{
+    height: 198px;
+  }
+}
+
+@media (max-width: 319px) {
+  footer{
+    height: 226px;
+  }
+}
+
+@media (max-width: 240px) {
+  footer{
+    height: 252px;
+  }
 }
 
 /* モバイル S/M/L ~425px  */
