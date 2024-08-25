@@ -20,66 +20,13 @@ header{
   height: 80px;
 }
 
-li>a{
-  text-decoration: none;
-  color: #d31;
-}
-
 nav{
   margin-left: 10px;
   height: 80px;
 }
 
-#infobutton{
-  display: none;
-  height: 40px;
-  margin: 20px 0px;
-  padding: 0px 20px;
-}
-
-#infobutton_out{
-  position: fixed;
-  width: 40px;
-  margin: 20px;
-}
-
 .hide{
   display: inline-block;
-}
-
-@media (max-width: 792px) {
-  #infobutton{
-    display: flex;
-  }
-  ul{
-    color: #000;
-  }
-  .hidden{
-    display: none;
-  }
-  .big{
-    height: 170px;
-  }
-}
-@media (max-width: 555px) and (min-width: 311px) {
-  .big{
-    height: 250px;
-  }
-}
-@media (max-width: 310px) {
-  .big{
-    height: 320px;
-  }
-}
-@media (max-width: 249px) {
-  .big{
-    height: 400px;
-  }
-}
-
-ul{
-  margin: 0px;
-  padding: 0px;
 }
 
 .items{
@@ -103,6 +50,18 @@ header>nav>img{
   width: 100%;
 }
 
+footer{
+  width: 100%;
+  height: 148px;
+  background-color: #ad9;
+}
+
+.right{
+  text-align: right;
+}
+
+
+/* title */
 .title{
   display: inline-block;
   padding: 0pt;
@@ -114,23 +73,6 @@ header>nav>img{
   margin-top: 74px;
 }
 
-@media (max-width: 410px){
-  .title{
-    font-size:50px;
-  }
-}
-
-@media (max-width: 345px){
-  .title{
-    font-size:40px;
-  }
-}
-
-.subtitle_right{
-  text-align: right;
-  margin-left: 1vw;
-}
-
 .subtitle{
   display: inline-block;
   padding: 0pt;
@@ -139,55 +81,15 @@ header>nav>img{
   font-size: 30pt;
 }
 
-@media (max-width: 400px){
-  .subtitle{
-    font-size: 25px;
-  }
+.subtitle_right{
+  text-align: right;
+  margin-left: 1vw;
 }
 
 .minititle{
   font-family: 'YuGothic','Yu Gothic', sans-serif;
   font-size: 20px;
   margin-left: 1vw;
-}
-
-.linkbutton{
-  display: inline-block;
-  color: #FFFFFF;
-  background-color: #73a456;
-  border-radius: 15px;
-  margin-left: 1vw;
-  padding: 7px;
-  text-decoration: none;
-  font-family: "M PLUS Rounded 1c",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
-}
-.linkbutton:hover{
-  background-color: #62824f;
-}
-
-.rainbow_linkbutton{
-  display: inline-block;
-  color: #FFFFFF;
-  background: linear-gradient(to right,#de4141,#e8ac51,#f2e55c,#39a869,#4784bf,#5d5099,#a55b9a);
-  border-radius: 15px;
-  margin-left: 1vw;
-  padding: 7px;
-  text-decoration: none;
-  font-family: "M PLUS Rounded 1c",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
-}
-
-.rainbow_linkbutton:hover{
-  background:linear-gradient(to right,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073);
-}
-
-.box_div{
-  background-color: rgba(109,150,156,0.3);
-  border-radius: 5px;
-  margin: 0vw 1vw;
-}
-
-.box{
-  padding: 8px;
 }
 
 .microtitle{
@@ -198,12 +100,38 @@ header>nav>img{
   font-weight: bold;
   width: 80px;
 }
+/* title - end */
+
+
+/* text */
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+li>a{
+  text-decoration: none;
+  color: #d31;
+}
 
 .microword{
   font-size: 20px;
   display: inline-block;
   font-family: 'klee',sans-serif;
   padding-left: 20px;
+}
+/* text - end */
+
+
+/* box or border */
+.box_div{
+  background-color: rgba(109,150,156,0.3);
+  border-radius: 5px;
+  margin: 0vw 1vw;
+}
+
+.box{
+  padding: 8px;
 }
 
 .table{
@@ -225,55 +153,151 @@ header>nav>img{
   border-width: 1px;
   border-color: #1a63aa;
 }
+/* box or border - end */
 
-@media (max-width: 396px){
-  .table{
-    overflow-x: scroll;
-  }
-  .line_T{
-    width: 380px;
-  }
-  .line_TB{
-    width: 380px;
-  }
+
+/* link or button */
+.linkbutton{
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: #73a456;
+  border-radius: 15px;
+  margin-left: 1vw;
+  padding: 7px;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
 }
 
-footer{
-  width: 100%;
-  height: 148px;
-  background-color: #ad9;
+.linkbutton:hover{
+  background-color: #62824f;
 }
 
-.right{
-  text-align: right;
+.rainbow_linkbutton{
+  display: inline-block;
+  color: #FFFFFF;
+  background: linear-gradient(to right,#de4141,#e8ac51,#f2e55c,#39a869,#4784bf,#5d5099,#a55b9a);
+  border-radius: 15px;
+  margin-left: 1vw;
+  padding: 7px;
+  text-decoration: none;
+  font-family: "M PLUS Rounded 1c",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
 }
 
-@media (max-width: 412px) {
-  footer{
-    height: 178px;
-  }
-  .rad{
-    display: none;
-  }
+.rainbow_linkbutton:hover{
+  background:linear-gradient(to right,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073);
 }
 
-@media (max-width: 366px) {
-  footer{
-    height: 198px;
-  }
+#infobutton{
+  display: none;
+  height: 40px;
+  margin: 20px 0px;
+  padding: 0px 20px;
 }
 
-@media (max-width: 319px) {
-  footer{
-    height: 226px;
-  }
+#infobutton_out{
+  position: fixed;
+  width: 40px;
+  margin: 20px;
 }
+/* link or button - end */
 
-@media (max-width: 240px) {
-  footer{
-    height: 252px;
+
+/* media */
+  /* header */
+  @media (max-width: 792px) {
+    #infobutton{
+      display: flex;
+    }
+    ul{
+      color: #000;
+    }
+    .hidden{
+      display: none;
+    }
+    .big{
+      height: 170px;
+    }
   }
-}
+  @media (max-width: 555px) and (min-width: 311px) {
+    .big{
+      height: 250px;
+    }
+  }
+  @media (max-width: 310px) {
+    .big{
+      height: 320px;
+    }
+  }
+  @media (max-width: 249px) {
+    .big{
+      height: 400px;
+    }
+  }
+  /* header - end */
+
+  
+  /* footer */
+  @media (max-width: 412px) {
+    footer{
+      height: 178px;
+    }
+    .rad{
+      display: none;
+    }
+  }
+  @media (max-width: 366px) {
+    footer{
+      height: 198px;
+    }
+  }
+  @media (max-width: 319px) {
+    footer{
+      height: 226px;
+    }
+  }
+  @media (max-width: 240px) {
+    footer{
+      height: 252px;
+    }
+  }
+  /* footer */
+
+
+  /* title */
+  @media (max-width: 410px){
+    .title{
+      font-size:50px;
+    }
+  }
+  @media (max-width: 345px){
+    .title{
+      font-size:40px;
+    }
+  }
+  @media (max-width: 400px){
+    .subtitle{
+      font-size: 25px;
+    }
+  }
+  /* title - end */
+
+
+  /* table overflow */
+  @media (max-width: 396px){
+    .table{
+      overflow-x: scroll;
+    }
+    .line_T{
+      width: 380px;
+    }
+    .line_TB{
+      width: 380px;
+    }
+  }
+  /* table overflow - end */
+
+/* media - end */
+
 
 /* モバイル S/M/L ~425px  */
 @media (max-width: 425px){
@@ -317,6 +341,7 @@ footer{
     padding-left: 26px;
   }
 }
+
 
 /* 4K 2560px */
 
