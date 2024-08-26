@@ -37,6 +37,9 @@ header>nav>img{
 }
 
 
+
+
+
 /* title */
 .title{
   display: inline-block;
@@ -79,6 +82,9 @@ header>nav>img{
 /* title - end */
 
 
+
+
+
 /* text */
 ul{
   margin: 0px;
@@ -103,6 +109,9 @@ li>a{
 /* text - end */
 
 
+
+
+
 /* header or footer */
 header{
   display: flex;
@@ -124,6 +133,9 @@ footer{
   background-color: #ad9;
 }
 /* header or footer - end */
+
+
+
 
 
 /* box or border */
@@ -157,6 +169,9 @@ footer{
   border-color: #1a63aa;
 }
 /* box or border - end */
+
+
+
 
 
 /* link or button */
@@ -205,6 +220,9 @@ footer{
 /* link or button - end */
 
 
+
+
+
 /* media */
   /* header */
   @media (max-width: 792px) {
@@ -239,6 +257,9 @@ footer{
   /* header - end */
 
 
+
+
+
   /* footer */
   @media (max-width: 412px) {
     footer{
@@ -266,6 +287,9 @@ footer{
   /* footer */
 
 
+
+
+
   /* title */
   @media (max-width: 410px){
     .title{
@@ -285,6 +309,9 @@ footer{
   /* title - end */
 
 
+
+
+
   /* table overflow */
   @media (max-width: 396px){
     .table{
@@ -298,8 +325,10 @@ footer{
     }
   }
   /* table overflow - end */
-
 /* media - end */
+
+
+
 
 
 /* モバイル S/M/L ~425px  */
@@ -309,6 +338,9 @@ footer{
   }
 
 }
+
+
+
 
 
 /* ノートPC 1024px */
@@ -344,6 +376,9 @@ footer{
     padding-left: 26px;
   }
 }
+
+
+
 
 
 /* 4K 2560px */
