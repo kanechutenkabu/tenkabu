@@ -43,13 +43,23 @@ header>nav>img{
 /* title */
 .title{
   display: inline-block;
-  padding: 0pt;
-  padding-bottom: 40pt;
-  margin: 0pt;
-  font-size: 60px;
+  padding: 0px;
+  padding-bottom: 40px;
+  margin: 0px;
   font-weight: bold;
   margin-left: calc(1vw + 10px);
   margin-top: 74px;
+  vertical-align: middle;
+}
+
+.T-top{
+  font-size: calc(360px / 6);
+  padding-top: 3px;
+}
+
+.T-about{
+  font-size: calc(360px / 10);
+  padding-top: 21px;
 }
 
 .subtitle{
@@ -290,28 +300,6 @@ footer{
 
 
 
-  /* title */
-  @media (max-width: 410px){
-    .title{
-      font-size:50px;
-    }
-  }
-  @media (max-width: 345px){
-    .title{
-      font-size:40px;
-    }
-  }
-  @media (max-width: 400px){
-    .subtitle{
-      font-size: 25px;
-    }
-  }
-  /* title - end */
-
-
-
-
-
   /* table overflow */
   @media (max-width: 396px){
     .table{
@@ -346,9 +334,6 @@ footer{
 /* ノートPC 1024px */
 
 @media (min-width: 1024px) and (max-width: 2559px){
-  .title{
-    font-size: 76px;
-  }
 
   .subtitle{
     font-size: 64px;
@@ -386,10 +371,6 @@ footer{
 @media (min-width: 2560px) {
   body{
     background-size: 1200px;
-  }
-
-  .title{
-    font-size: 135px;
   }
 
   .subtitle{
