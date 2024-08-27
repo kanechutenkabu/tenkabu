@@ -61,6 +61,11 @@ header>nav>img{
   padding: 31px 0px;
 }
 
+.T-member{
+  font-size: calc(360px / 9);
+  padding: 27.5px 0px;
+}
+
 .subtitle{
   display: inline-block;
   padding: 0pt;
@@ -176,6 +181,14 @@ footer{
   border-style: dashed none;
   border-width: 1px;
   border-color: #1a63aa;
+}
+
+.edgebox{
+  width: 97vw;
+  margin: 0vw 1.5vw;
+}
+.green{
+  background-color: rgba(0, 200, 100, 0.5);
 }
 /* box or border - end */
 
