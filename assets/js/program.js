@@ -22,3 +22,10 @@ function tgl_dsp() {
     big.classList.toggle("big");
     nav.classList.toggle("big");
 }
+
+const rbbtn = document.querySelector("#js_rbbtn");
+rbbtn.addEventListener("click",rb_tgl);
+
+function rb_tgl() {
+    alert("準備中です。「気が向いたら」実装します。");
+}
