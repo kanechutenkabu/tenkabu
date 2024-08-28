@@ -93,6 +93,13 @@ header>nav>img{
   font-weight: bold;
   width: 80px;
 }
+
+.membertitle{
+  margin: 0px;
+  padding: 5px;
+  padding-bottom: 0px;
+  font-size: 24px;
+}
 /* title - end */
 
 
@@ -119,6 +126,13 @@ li>a{
 
 .right{
   text-align: right;
+}
+
+.membertxt{
+  margin: 0px;
+  padding: 5px;
+  padding-top: 0px;
+  font-size: 18px;
 }
 /* text - end */
 
@@ -184,11 +198,45 @@ footer{
 }
 
 .edgebox{
-  width: 97vw;
-  margin: 0vw 1.5vw;
+  width: 97%;
+  margin: 10px 1.5%;
 }
-.green{
-  background-color: rgba(0, 200, 100, 0.5);
+
+.rrrr{
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.rrrg{
+  background-color: rgba(191, 63, 0, 0.3);
+}
+.rrgg{
+  background-color: rgba(127, 127, 0, 0.3);
+}
+.rggg{
+  background-color: rgba(63, 191, 0, 0.3);
+}
+.gggg{
+  background-color: rgba(0, 255, 0, 0.3);
+}
+.gggb{
+  background-color: rgba(0, 191, 63, 0.3);
+}
+.ggbb{
+  background-color: rgba(0, 127, 127, 0.3);
+}
+.gbbb{
+  background-color: rgba(0, 63, 191, 0.3);
+}
+.bbbb{
+  background-color: rgba(0, 0, 255, 0.3);
+}
+.bbbr{
+  background-color: rgba(63, 0, 191, 0.3);
+}
+.bbrr{
+  background-color: rgba(127, 0, 127, 0.3);
+}
+.brrr{
+  background-color: rgba(191, 0, 63, 0.3);
 }
 /* box or border - end */
 
