@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN', "Sawarabi mincho",sans-serif;
   background-image: url("background.svg");
   background-size: 700px;
   background-repeat :repeat;
