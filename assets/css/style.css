@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
+
 html{
   scroll-behavior: smooth;
 }
 
 body{
-  font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN', "Sawarabi mincho",sans-serif;
+  font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN','Noto Serif JP',sans-serif;
   background-image: url("background.svg");
   background-size: 700px;
   background-repeat :repeat;
@@ -70,7 +72,7 @@ header>nav>img{
   display: inline-block;
   padding: 0pt;
   margin: 0vw 1vw 0vw 0vw;
-  font-family: 'Kokoro','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','Noto Serif JP',sans-serif;
   font-size: 30pt;
 }
 
@@ -80,7 +82,7 @@ header>nav>img{
 }
 
 .minititle{
-  font-family: 'YuGothic','Yu Gothic', sans-serif;
+  font-family: 'YuGothic','Yu Gothic','Noto Serif JP',sans-serif;
   font-size: 20px;
   margin-left: 1vw;
 }
@@ -89,7 +91,7 @@ header>nav>img{
   font-size: 20px;
   display: inline-block;
   color: #197dc3;
-  font-family: 'klee',sans-serif;
+  font-family: sans-serif;
   font-weight: bold;
   width: 80px;
 }
@@ -120,7 +122,6 @@ li>a{
 .microword{
   font-size: 20px;
   display: inline-block;
-  font-family: 'klee',sans-serif;
   padding-left: 20px;
 }
 
@@ -253,8 +254,8 @@ footer{
   margin-left: 1vw;
   padding: 7px;
   text-decoration: none;
-  font-family: "M PLUS Rounded 1c",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
-}
+  font-family: sans-serif;
+  }
 
 .linkbutton:hover{
   background-color: #62824f;
@@ -268,8 +269,8 @@ footer{
   margin-left: 1vw;
   padding: 7px;
   text-decoration: none;
-  font-family: "M PLUS Rounded 1c",'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
-}
+  font-family: sans-serif;
+  }
 
 .rainbow_linkbutton:hover{
   background:linear-gradient(to right,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073);
@@ -309,17 +310,17 @@ footer{
       height: 170px;
     }
   }
-  @media (max-width: 555px) and (min-width: 311px) {
+  @media (max-width: 550px) {
     .big{
       height: 250px;
     }
   }
-  @media (max-width: 310px) {
+  @media (max-width: 309px) {
     .big{
       height: 320px;
     }
   }
-  @media (max-width: 249px) {
+  @media (max-width: 246px) {
     .big{
       height: 400px;
     }
