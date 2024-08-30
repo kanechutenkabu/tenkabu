@@ -135,6 +135,16 @@ li>a{
   padding-top: 0px;
   font-size: 18px;
 }
+
+.section{
+  font-size: 30px;
+  text-align: center;
+}
+
+p{
+  position: relative;
+  z-index: 2;
+}
 /* text - end */
 
 
@@ -149,6 +159,7 @@ header{
   position: fixed;
   align-items: center;
   height: 80px;
+  z-index: 1;
 }
 
 nav{
@@ -203,41 +214,17 @@ footer{
   margin: 10px 1.5%;
 }
 
-.rrrr{
+.st{
   background-color: rgba(255, 0, 0, 0.3);
 }
-.rrrg{
-  background-color: rgba(191, 63, 0, 0.3);
-}
-.rrgg{
-  background-color: rgba(127, 127, 0, 0.3);
-}
-.rggg{
+.nd{
   background-color: rgba(63, 191, 0, 0.3);
 }
-.gggg{
-  background-color: rgba(0, 255, 0, 0.3);
-}
-.gggb{
-  background-color: rgba(0, 191, 63, 0.3);
-}
-.ggbb{
-  background-color: rgba(0, 127, 127, 0.3);
-}
-.gbbb{
+.rd{
   background-color: rgba(0, 63, 191, 0.3);
 }
-.bbbb{
-  background-color: rgba(0, 0, 255, 0.3);
-}
-.bbbr{
-  background-color: rgba(63, 0, 191, 0.3);
-}
-.bbrr{
-  background-color: rgba(127, 0, 127, 0.3);
-}
-.brrr{
-  background-color: rgba(191, 0, 63, 0.3);
+.ghost{
+  background-color: rgba(63, 63, 63, 0.3);
 }
 /* box or border - end */
 
