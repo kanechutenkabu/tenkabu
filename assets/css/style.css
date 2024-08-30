@@ -140,6 +140,12 @@ li>a{
   font-size: 30px;
   text-align: center;
 }
+
+.ovmt{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
 /* text - end */
 
 
