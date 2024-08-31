@@ -151,6 +151,10 @@ li>a{
 .ovmt::-webkit-scrollbar{
   display: none;
 }
+
+.nowrap{
+  white-space: nowrap;
+}
 /* text - end */
 
 
