@@ -155,6 +155,11 @@ li>a{
 .nw{
   white-space: nowrap;
 }
+
+.footertxt{
+  width: 100vw;
+  margin: 0px;
+}
 /* text - end */
 
 
@@ -329,12 +334,9 @@ footer{
 
 
   /* footer */
-  @media (max-width: 412px) {
+  @media (max-width: 438px) {
     footer{
       height: 178px;
-    }
-    .rad{
-      display: none;
     }
   }
   @media (max-width: 366px) {
