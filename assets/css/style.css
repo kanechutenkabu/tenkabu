@@ -241,6 +241,9 @@ footer{
 .ghost{
   background-color: rgba(63, 63, 63, 0.3);
 }
+.sp{
+  background: linear-gradient(20deg, rgba(255, 0, 0, 0.3), rgba(63, 191, 0, 0.3), rgba(0, 63, 191, 0.3));
+}
 /* box or border - end */
 
 
