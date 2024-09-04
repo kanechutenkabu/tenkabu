@@ -160,6 +160,14 @@ li>a{
   width: 100vw;
   margin: 0px;
 }
+
+.rainbowtxt{
+  background:linear-gradient(20deg, #F00, #F80, #FF0, #3AA, #00F, #73F);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* text - end */
 
 
