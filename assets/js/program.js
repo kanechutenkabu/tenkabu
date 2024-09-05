@@ -21,11 +21,22 @@ function tgl_dsp() {
     hide.classList.toggle("hidden");
     big.classList.toggle("big");
     nav.classList.toggle("big");
-}
+};
 
 const rbbtn = document.querySelector("#js_rbbtn");
 rbbtn.addEventListener("click",rb_tgl);
 
 function rb_tgl() {
-    alert("準備中です。「気が向いたら」実装します。");
-}
+    const forrainbow = document.querySelectorAll("p");
+    const forrainbow2 = document.querySelectorAll("h1");
+    let i = 0;
+    while (i < 14) {
+        forrainbow[i].classList.toggle("rainbowtxt");
+        i++;
+    }
+    i = 0;
+    while (i < 1) {
+        forrainbow2[i].classList.toggle("rainbowtxt");
+        i++;
+    }
+};
