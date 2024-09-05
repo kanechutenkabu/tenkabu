@@ -63,6 +63,11 @@ header>nav>img{
   padding: 31px 0px;
 }
 
+.T-archive_support{
+  font-size: calc(360px /8);
+  padding: 24px 0px;
+}
+
 .T-member{
   font-size: calc(360px / 9);
   padding: 27.5px 0px;
