@@ -139,6 +139,8 @@ li>a{
 .section{
   font-size: 30px;
   text-align: center;
+  overflow-x: hidden;
+  white-space: nowrap;
 }
 
 .ovmt{
@@ -157,7 +159,7 @@ li>a{
 }
 
 .footertxt{
-  width: 100vw;
+  width: 100%;
   margin: 0px;
 }
 
@@ -409,11 +411,6 @@ footer{
 /* ノートPC 1024px */
 
 @media (min-width: 1024px) and (max-width: 2559px){
-
-  .subtitle{
-    font-size: 64px;
-  }
-
   .box{
     font-size: 20px;
   }
