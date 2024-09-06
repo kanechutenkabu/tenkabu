@@ -30,13 +30,10 @@ function rb_tgl() {
     const forrainbow = document.querySelectorAll("p");
     const forrainbow2 = document.querySelectorAll("h1");
     let i = 0;
-    while (i < 14) {
+    forrainbow2[0].classList.toggle("rainbowtxt");
+    while (i < 100) {
         forrainbow[i].classList.toggle("rainbowtxt");
         i++;
     }
     i = 0;
-    while (i < 1) {
-        forrainbow2[i].classList.toggle("rainbowtxt");
-        i++;
-    }
 };
