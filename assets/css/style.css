@@ -44,17 +44,17 @@ header>nav>img{
   right: 10px;
   z-index: 2;
   text-decoration: none;
-  background: linear-gradient(90deg,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073,#c70000) 0 / 200%;
-  animation: 20s absbtn linear infinite;
+  background: linear-gradient(90deg,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073,#c70000) 0 / 150%;
+  animation: 16s absbtn linear infinite;
   color: #FFF;
   padding: 9px;
   border-radius: 10px;
 }
 @keyframes absbtn{
-  100% { background-position: 200%; }
+  100% { background-position: 150%; }
 }
 .absbtn:hover{
-  background: linear-gradient(90deg,#de4141,#e8ac51,#f2e55c,#39a869,#4784bf,#5d5099,#a55b9a,#de4141) 0 / 200%;
+  background: linear-gradient(90deg,#de4141,#e8ac51,#f2e55c,#39a869,#4784bf,#5d5099,#a55b9a,#de4141) 0 / 150%;
 }
 
 
@@ -235,12 +235,16 @@ footer{
 
 
 /* box or border */
+
 .bx-blue{
   background-color: rgba(109,150,156,0.3);
 }
+.bx-red{
+  background-color: rgba(255, 40, 40, 0.3);
+}
 .box_div{
   border-radius: 5px;
-  margin: 0vw 1vw;
+  margin: 15px 1vw;
 }
 
 .box{
