@@ -126,6 +126,12 @@ header>nav>img{
   padding-bottom: 0px;
   font-size: 24px;
 }
+
+.boxtitle{
+  font-size: 24px;
+  padding: 8px;
+  margin: 0px;
+}
 /* title - end */
 
 
@@ -236,6 +242,8 @@ footer{
 
 .box{
   padding: 8px;
+  padding-bottom: 0px;
+  margin: 0px;
 }
 
 .table{
