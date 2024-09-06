@@ -26,6 +26,8 @@ rbbtn.addEventListener("click",rb_tgl);
 function rb_tgl() {
     const forrainbow = document.querySelectorAll("p");
     const forrainbow2 = document.querySelectorAll("h1");
+    console.log(forrainbow);
+    console.log(forrainbow2);
     let i = 0;
     forrainbow2[0].classList.toggle("rainbowtxt");
     while (i < 100) {
