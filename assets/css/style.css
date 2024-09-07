@@ -249,7 +249,6 @@ footer{
 
 .box{
   padding: 8px;
-  padding-top: 0px;
   margin: 0px;
 }
 
@@ -425,7 +424,21 @@ footer{
   body{
     background-size: 400px;
   }
-
+  .T-top{
+    font-size: calc(250px / 6);
+  }
+  .T-about{
+    font-size: calc(250px / 10);
+  }
+  .T-archive_support{
+    font-size: calc(250px / 8);
+  }
+  .T-member{
+    font-size: calc(250px / 9);
+  }
+  .subtitle{
+    font-size: 28px;
+  }
 }
 
 
@@ -434,19 +447,7 @@ footer{
 
 /* ノートPC 1024px */
 
-@media (min-width: 1024px) and (max-width: 2559px){
-  .box{
-    font-size: 20px;
-  }
-
-  .linkbutton{
-    font-size: 18px;
-  }
-
-  .rainbow_linkbutton{
-    font-size: 18px;
-  }
-
+@media (min-width: 1024px) and (max-width: 2559px) {
   .microtitle{
     font-size: 26px;
     width: 108px;
@@ -467,26 +468,6 @@ footer{
 @media (min-width: 2560px) {
   body{
     background-size: 1200px;
-  }
-
-  .subtitle{
-    font-size: 108px;
-  }
-
-  .box{
-    font-size: 42px;
-  }
-
-  .linkbutton{
-    font-size: 36px;
-    padding: 20px;
-    border-radius: 24px;
-  }
-
-  .rainbow_linkbutton{
-    font-size: 36px;
-    padding: 20px;
-    border-radius: 24px;
   }
 
   .microtitle{
