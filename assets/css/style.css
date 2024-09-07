@@ -475,6 +475,10 @@ footer{
     background-size: 1200px;
   }
 
+  .box{
+    font-size: 26px;
+  }
+
   .microtitle{
     font-size: 45px;
     width: 180px;
