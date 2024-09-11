@@ -242,6 +242,9 @@ footer{
 .bx-red{
   background-color: rgba(255, 40, 40, 0.3);
 }
+.bx-green{
+  background-color: rgba(0, 178, 64, 0.3);
+}
 .box_div{
   border-radius: 5px;
   margin: 15px 1vw;
