@@ -289,7 +289,7 @@ footer{
 .linkbutton{
   display: inline-block;
   color: #FFFFFF;
-  background-color: #73a456;
+  background-color: #62824f;
   border-radius: 15px;
   margin-left: 1vw;
   padding: 7px;
@@ -298,7 +298,7 @@ footer{
   }
 
 .linkbutton:hover{
-  background-color: #62824f;
+  background-color: #4a613d;
 }
 /* link or button - end */
 
