@@ -26,7 +26,7 @@ body{
 
 
 /* title */
-.title{
+h1{
   display: inline-block;
   margin: 0px;
   font-weight: bold;
@@ -34,26 +34,6 @@ body{
   margin-top: 74px;
   margin-bottom: 40px;
   vertical-align: middle;
-}
-
-.T-top{
-  font-size: calc(360px / 6);
-  padding: 11.5px 0px;
-}
-
-.T-about{
-  font-size: calc(360px / 10);
-  padding: 31px 0px;
-}
-
-.T-archive_support{
-  font-size: calc(360px /8);
-  padding: 24px 0px;
-}
-
-.T-member{
-  font-size: calc(360px / 9);
-  padding: 27.5px 0px;
 }
 
 .subtitle{
@@ -107,11 +87,6 @@ body{
 ul{
   margin: 0px;
   padding: 0px;
-}
-
-li>a{
-  text-decoration: none;
-  color: #d31;
 }
 
 .microword{
@@ -172,21 +147,6 @@ li>a{
 
 
 /* header or footer */
-header{
-  display: flex;
-  background-color: #ccc;
-  width: 100vw;
-  position: fixed;
-  align-items: center;
-  height: 80px;
-  z-index: 1;
-}
-
-nav{
-  margin-left: 10px;
-  height: 80px;
-}
-
 footer{
   width: 100%;
   height: 148px;
@@ -299,9 +259,6 @@ footer{
     }
     ul{
       color: #000;
-    }
-    .hidden{
-      display: none;
     }
     .big{
       height: 170px;

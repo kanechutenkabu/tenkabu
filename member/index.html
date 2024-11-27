@@ -13,8 +13,49 @@
     <meta name="twitter:image" content="../assets/images/天.png">
     <title>天文・科学部公式サイト | MEMBER</title>
     <style>
+      h1{
+        display: inline-block;
+        margin: 0px;
+        font-weight: bold;
+        margin-left: calc(1vw + 10px);
+        margin-top: 74px;
+        margin-bottom: 40px;
+        vertical-align: middle;
+      }
+
+      .T-member{
+        font-size: calc(360px / 9);
+        padding: 27.5px 0px;
+      }
+
+      header{
+        display: flex;
+        background-color: #ccc;
+        width: 100vw;
+        position: fixed;
+        align-items: center;
+        height: 80px;
+        z-index: 1;
+      }
+      
+      nav{
+        margin-left: 10px;
+        height: 80px;
+      }
+
+      li>a{
+        text-decoration: none;
+        color: #d31;
+      }
+
       .hide{
         display: inline-block;
+      }
+
+      @media (max-width: 750px) {
+        .hidden{
+          display: none;
+        }
       }
 
       .items{
