@@ -17,6 +17,9 @@ body{
 @keyframes absbtn{
   100% { background-position: 200%; }
 }
+.absbtn{
+  background: linear-gradient(90deg,#c70000,#d28300,#dfd000,#00873c,#005aa0,#181878,#800073,#c70000) 0 / 200%;
+}
 .absbtn:hover{
   background: linear-gradient(90deg,#de4141,#e8ac51,#f2e55c,#39a869,#4784bf,#5d5099,#a55b9a,#de4141) 0 / 200%;
 }
