@@ -14,22 +14,6 @@ body{
   margin: 0%;
 }
 
-.top_space{
-  height: calc(100vh - 1431px);
-}
-.about_space{
-  height: calc(100vh - 1133px);
-}
-.archive_space{
-  height: calc(100vh - 1081px);
-}
-.support_space{
-  height: calc(100vh - 382px);
-}
-.member_space{
-  height: calc(100vh - 3331.44px);
-}
-
 @keyframes absbtn{
   100% { background-position: 200%; }
 }
