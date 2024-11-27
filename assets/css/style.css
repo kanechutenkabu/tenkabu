@@ -7,7 +7,7 @@ html{
 
 body{
   font-family: 'Noto serif JP','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
-  background-image: url("background.svg");
+  background-image: url("../images/backgrownd.svg");
   background-size: 700px;
   background-repeat :repeat;
   background-attachment: fixed;
