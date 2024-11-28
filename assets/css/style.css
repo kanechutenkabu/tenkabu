@@ -28,12 +28,12 @@ body{
 
 
 /* title */
+h1{
+  font-weight: bold;
+}
+
 .subtitle{
-  display: inline-block;
-  padding: 0pt;
-  margin: 0vw 1vw 0vw 0vw;
   font-family: 'Noto Serif JP','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
-  font-size: 30pt;
 }
 
 .subtitle_right{
