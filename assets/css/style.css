@@ -223,6 +223,13 @@ footer{
 
 
 /* link or button */
+.linkbutton{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #62824f;
+  border-radius: 15px;
+}
 .linkbutton:hover{
   background-color: #4a613d;
 }
