@@ -223,17 +223,6 @@ footer{
 
 
 /* link or button */
-.linkbutton{
-  display: inline-block;
-  color: #FFFFFF;
-  background-color: #62824f;
-  border-radius: 15px;
-  margin-left: 1vw;
-  padding: 7px;
-  text-decoration: none;
-  font-family: sans-serif;
-  }
-
 .linkbutton:hover{
   background-color: #4a613d;
 }
