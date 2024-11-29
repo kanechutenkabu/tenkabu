@@ -351,14 +351,4 @@ footer{
   .box{
     font-size: 26px;
   }
-
-  .microtitle{
-    font-size: 45px;
-    width: 180px;
-  }
-
-  .microword{
-    font-size: 45px;
-    padding-left: 45px;
-  }
 }
