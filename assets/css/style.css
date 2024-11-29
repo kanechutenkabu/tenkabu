@@ -180,12 +180,6 @@ footer{
   margin: 15px 1vw;
 }
 
-.box{
-  padding: 8px;
-  margin: 0px;
-  font-size: 16px;
-}
-
 .table{
   width: calc(100% - 4vw);
   height: 100%;
