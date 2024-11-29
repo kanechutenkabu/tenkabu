@@ -52,12 +52,8 @@ h1{
 }
 
 .microtitle{
-  font-size: 20px;
-  display: inline-block;
   color: #197dc3;
-  font-family: sans-serif;
   font-weight: bold;
-  width: 80px;
 }
 
 .membertitle{
@@ -93,12 +89,6 @@ li>a{
 .items{
   border-left: #000 solid 1px;
   border-right: #000 solid 1px;
-}
-
-.microword{
-  font-size: 20px;
-  display: inline-block;
-  padding-left: 20px;
 }
 
 .right{
@@ -181,8 +171,7 @@ footer{
 }
 
 .table{
-  width: calc(100% - 4vw);
-  height: 100%;
+  width: calc(100% - 2vw);
   margin: 0vw 1vw;
 }
 
@@ -346,23 +335,6 @@ footer{
   }
   .subtitle{
     font-size: 28px;
-  }
-}
-
-
-
-
-
-/* ノートPC 1024px */
-@media (min-width: 1024px) and (max-width: 2559px) {
-  .microtitle{
-    font-size: 26px;
-    width: 108px;
-  }
-
-  .microword{
-    font-size: 26px;
-    padding-left: 26px;
   }
 }
 

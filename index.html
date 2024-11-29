@@ -79,6 +79,57 @@
         z-index: 1;
       }
       
+      .microtitle{
+        display: inline-block;
+        font-size: 20px;
+        padding: 0px;
+        margin: 20px 0px;
+        width: 80px;
+      }
+
+      .microword{
+        display: inline-block;
+        font-size: 20px;
+        padding: 0px 0px 0px 20px;
+        margin: 20px 0px;
+      }
+
+      @media (min-width: 1024px) and (max-width: 2559px) {
+        .microtitle{
+          font-size: 26px;
+          margin: 26px 0px;
+          width: 108px;
+        }
+
+        .microword{
+          font-size: 26px;
+          margin: 26px 0px;
+          padding-left: 26px;
+        }
+      }
+      
+      @media (min-width: 2560px) {
+        body{
+          background-size: 1200px;
+        }
+
+        .box{
+          font-size: 26px;
+        }
+
+        .microtitle{
+          font-size: 45px;
+          margin: 45px 0px;
+          width: 180px;
+        }
+
+        .microword{
+          font-size: 45px;
+          margin: 45px 0px;
+          padding-left: 45px;
+        }
+      }
+
       nav{
         margin-left: 10px;
         height: 80px;
@@ -98,14 +149,8 @@
         display: inline-block;
         height: 24px;
         margin: 8px 0px;
-        padding: 20px 20px;
+        padding: 20px;
         text-decoration: none;
-      }
-
-      header>nav>img{
-        display: inline-block;
-        height: 60px;
-        margin: 10px 20px;
       }
 
       .headmargin{
