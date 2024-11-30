@@ -33,6 +33,8 @@ body{
 
 /* title */
 h1{
+  height: 86px;
+  margin: 74px 0px 40px calc(1vw + 10px);
   font-weight: bold;
 }
 

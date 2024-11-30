@@ -15,6 +15,8 @@
     <title>天文・科学部公式サイト | TOP</title>
     <style>
       body{
+        margin: 0px;
+        padding: 0px;
         font-family: 'Noto serif JP','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
       }
       
@@ -39,10 +41,9 @@
 
       h1{
         display: inline-block;
+        height: 200px;
         margin: 0px;
-        margin-left: calc(1vw + 10px);
-        margin-top: 74px;
-        margin-bottom: 40px;
+        padding: 0px;
         vertical-align: middle;
       }
       
@@ -68,10 +69,21 @@
         }
       }
 
-      .T-top{
-        font-size: calc(360px / 6);
-        padding: 11.5px 0px;
+      @media (max-width: 425px) {
+        .T-top{
+          font-size: calc(250px / 6);
+        }
+        
+        .subtitle{
+          font-size: 28px;
+        }
       }
+      @media (min-width: 426px) {
+        .T-top{
+          font-size: calc(360px / 6);
+          padding: 11.5px 0px;
+        }
+     }
 
       header{
         display: flex;
