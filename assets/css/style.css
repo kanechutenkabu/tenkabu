@@ -196,13 +196,13 @@ footer{
   margin: 10px 1.5%;
 }
 
-.st{
+.redgrade{
   background-color: rgba(255, 0, 0, 0.3);
 }
-.nd{
+.greengrade{
   background-color: rgba(63, 191, 0, 0.3);
 }
-.rd{
+.bluegrade{
   background-color: rgba(0, 63, 191, 0.3);
 }
 .ghost{
